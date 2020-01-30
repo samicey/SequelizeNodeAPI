@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/samicey/SequelizeNodeAPI.svg?branch=master)](https://travis-ci.org/samicey/SequelizeNodeAPI)
+
+[![Coverage Status](https://coveralls.io/repos/github/samicey/SequelizeNodeAPI/badge.svg?branch=master)](https://coveralls.io/github/samicey/SequelizeNodeAPI?branch=master)
+
 # This project implements all the RESTful verbs while following best practices.
 
 
