@@ -16,4 +16,4 @@
 ### babel 
 - to transpile our ES6 to ES5
 ### Travis, Covarage and Code-Climate 
-- for code coverage
+- for code coverages
