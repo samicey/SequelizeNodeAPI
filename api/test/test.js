@@ -28,7 +28,6 @@ describe('Testing the book endpoints:', () => {
         done();
       });
   });
-
   it('It should not create a book with incomplete parameters', (done) => {
     const book = {
       price: '$9.99',
