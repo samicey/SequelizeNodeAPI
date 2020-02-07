@@ -28,7 +28,7 @@ app.use(_bodyParser["default"].urlencoded({
 var port = process.env.PORT || 8000;
 app.use('/api/v1/books', _BookRoutes["default"]); // when a random route is inputed
 
-app.get('*', function (req, res) {
+app.get('/', function (req, res) {
   return res.status(200).send({
     message: 'Welcome to this API.'
   });
