@@ -2,11 +2,13 @@ import config from 'dotenv';
 import express from 'express';
 import bodyParser from 'body-parser';
 import bookRoutes from './server/routes/BookRoutes';
+import cors from 'cors';
 
 config.config();
 
 const app = express();
 
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 

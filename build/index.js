@@ -15,9 +15,12 @@ var _bodyParser = _interopRequireDefault(require("body-parser"));
 
 var _BookRoutes = _interopRequireDefault(require("./server/routes/BookRoutes"));
 
+var _cors = _interopRequireDefault(require("cors"));
+
 _dotenv["default"].config();
 
 var app = (0, _express["default"])();
+app.use((0, _cors["default"])());
 app.use(_bodyParser["default"].json());
 app.use(_bodyParser["default"].urlencoded({
   extended: false
