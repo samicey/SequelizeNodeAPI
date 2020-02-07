@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
+    "start":"node --exec babel-node ./api/index.js",
     "build": "rm -rf ./build && babel -d ./build ./api -s",
     "test": "sequelize db:migrate:undo:all  && sequelize db:migrate  && nyc --require @babel/register  mocha ./api/test/test.js --timeout 20000 --exit",
     "generate-lcov": "nyc report --reporter=text-lcov > lcov.info",
