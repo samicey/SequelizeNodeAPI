@@ -10,6 +10,7 @@
 ### Nodejs
 ### Express
 ### Sequelize
+### Postgres
 - An ORM that makes it easy to communicate with sql databases without writing sql codes
 ### Postgres
 - for database
