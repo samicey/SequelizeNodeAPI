@@ -1,7 +1,7 @@
 import config from 'dotenv';
 import express from 'express';
 import bodyParser from 'body-parser';
-import bookRtes from './server/routes/BookRoutes';
+import bookRoutes from './server/routes/BookRoutes';
 import cors from 'cors';
 
 config.config();
